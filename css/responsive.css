@@ -1,0 +1,77 @@
+@media screen and (max-width: 1000px) {
+ .nav div{
+    margin-left: 200px;
+        
+ }
+ .border1{
+    margin-top: -10px;
+    height: 620px;
+
+ }
+ .dropdown-content{
+     margin-left: 127px;
+     margin-top: 27px;
+ }
+ .visual{
+     height: 620px;
+     margin-top: -20px;
+ }
+ .visual1{
+    height: 620px;
+    margin-top: -20px;
+ }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .border1{
+     height: 270px;
+    }
+    .visual{
+        height: 270px;
+
+    }
+    .visual1{
+        height: 270px;
+    }
+    .nav div{
+       overflow: hidden;
+       opacity: 0;
+    }
+}
+ 
+@media only screen and (min-width: 1024px) and (orientation: portrait) { 
+      
+    .border1{
+        height: 190px;
+    }
+    .visual{
+        height: 190px;
+    }
+    .visual1{
+        height: 190px;
+    }
+    .nav div{
+      opacity: 0;
+    }
+    .header{
+        overflow: hidden;
+        
+    }
+}
+    @media(max-width: 320px){ 
+        .border1{
+            height: 875px;
+        }
+        .visual{
+            height: 875px;
+        }
+        .visual1{
+            height: 875px;
+        }
+        .nav div{
+            margin-left: 160px;
+          margin-top: -18px;
+        }
+        .dropdown-content{
+            margin-left: 60px;
+        }
+    }
