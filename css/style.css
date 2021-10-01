@@ -204,3 +204,8 @@ button, input, select, textarea {
   html{
     scroll-behavior: smooth;
   }
+
+  .center {
+      text-align: center;
+      justify-content: center;
+    }
